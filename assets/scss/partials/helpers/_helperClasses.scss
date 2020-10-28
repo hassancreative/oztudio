@@ -1,0 +1,39 @@
+.default-list{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+.CommonHeadingh4, .CommonHeadingh1{
+	text-transform: uppercase;
+}
+.CommonHeadingh4{font-size: 12px;color: #fe7702;letter-spacing: 0;}
+.CommonHeadingh1{font-size: 30px;color: #fff;font-weight: bold;position: relative;display: inline-block;letter-spacing: 1px;}
+.CommonHeadingh1:before , .CommonHeadingh1:after{
+	content: '';
+	width: 1px;
+	height: 17px;
+	background:#575757;
+	position: absolute;
+}
+.CommonHeadingh1:before{left: -18px;top: 8px;}
+.CommonHeadingh1:after{top: 10px;right: -19px;}
+.recentHeading {padding-top: 50px;}
+.CommonHeadingh1 span.line:before, .CommonHeadingh1 span.line:after {
+	content: '';
+	width: 97px;
+	height: 1px;
+	background: #575757;
+	position: absolute;
+}
+.CommonHeadingh1 span.line:before {
+	left: -116px;
+	top: 16px;
+}
+.CommonHeadingh1 span.line:after{
+	right: -117px;
+	top: 18px;
+}
