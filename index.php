@@ -13,6 +13,7 @@
     <script src="https://use.fontawesome.com/e88febfc35.js"></script>
     <!-- Style Sheet -->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/demos.css">
 </head>
 <body>
 
@@ -93,7 +94,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="slider-text">
-                        <h1>New Age Agency</h1>
+                        <h1>Oztudeo Providing <span id="typed2"></span></h1>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit aspernatur, ut odit tempora officiis enim neque, maxime, architecto nulla ducimus obcaecati!</p>
                         <div class="slider-btns">
                             <a href="javascript:void(0)" class="common-btn orange-btn br-left mr-2">Order Now</a>
@@ -279,10 +280,23 @@
 
 
 <!-- Jquery Slim 3.3.1 -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Popper 1.14.7 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <!-- Bootstrap JS 4.3.1 -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="assets/js/typed.min.js"></script>
+<script src="assets/js/demos.js"></script>
+<script>
+     var typed2 = new Typed('#typed2', {
+    strings: ['<strong>Web Services</strong>', '<strong>Logo Desing</strong>', '<strong>Social Services</strong>;'],
+    typeSpeed: 100,
+    backSpeed: 0,
+    fadeOut: true,
+    loop: true
+  });
+    
+</script>
+
 </body>
 </html>
