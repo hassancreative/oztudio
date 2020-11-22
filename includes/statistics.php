@@ -1,16 +1,4 @@
 <section class="statistics Features" id="what-we-do">
-<!-- <div class="about-heading">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="recentHeading text-center">
-                    <h4 class="CommonHeadingh4">About Agency</h4>
-                    <h1 class="CommonHeadingh1"><span class="line"></span>Reviews</h1>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
     <div class="container">
         <div class="row statisticsInner">
             <!--Box-1-->

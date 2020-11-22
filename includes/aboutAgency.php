@@ -32,8 +32,12 @@
                     <p class="thoughts">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, fugit sit doloribus quam corrupti sunt tempora voluptate voluptatibus minima illo quo soluta molestias qui nihil? Dicta natus molestias excepturi tempora!
                     </p>
-                    <div class="learn-more">
+                    <!-- <div class="learn-more">
                         <a href="javascript:void(0)">Learn more</a>
+                    </div> -->
+                    <div class="slider-btns">
+                        <a href="javascript:void(0)" class="common-btn orange-btn br-left mr-2">Learn more</a>
+                        <!-- <a href="javascript:void(0)" class="common-btn outline-white-btn br-right">Learn more</a> -->
                     </div>
                 </div>
             </div>

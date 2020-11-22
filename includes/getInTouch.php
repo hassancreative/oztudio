@@ -1,12 +1,14 @@
-<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" /> -->
 <section id="getInTouch">
     <div class="text">
         <h2>Get in Touch</h2>
-        <p>You need more information? check what other persons are saying about our products and <br /> also To make an appointment or if you have any question to ask our team</p>
+        <p>You need more information? check what other persons are saying about our products and also To make an appointment or if you have any question to ask our team</p>
     </div>
     <div class="btn">
-        <div id="contact">
+        <!-- <div id="contact">
             <a href="javascript:void(0)">Contact Now</a>
+        </div> -->
+        <div class="slider-btns" id="contact-btn">
+            <a href="javascript:void(0)" class="common-btn orange-btn br-left mr-2">Contact Now</a>
         </div>
         <div id="contactForm">
             <h2>Contact Us</h2>
@@ -39,8 +41,8 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 col-md-offset-4 text-center">
-                        <button class="btn btn-primary btn-raised">
+                    <div class="slider-btns col-md-12 col-md-offset-4 text-center">
+                        <button class="send-msg common-btn orange-btn br-left mr-2">
                             Send Message
                         </button>
                     </div>
@@ -54,7 +56,7 @@
 
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 <script>
-    $("#contact").on("click", function() {
+    $("#contact-btn").on("click", function() {
         $("#contactForm").addClass("active");
         document.getElementById("overlay").style.display = "block";
     });
@@ -71,6 +73,18 @@
             if ($(e.target).is(".form-group") === false) {
                 $(".form-group").removeClass("is-focus");
             }
+        });
+        $(".send-msg").on("click", function(e) {
+            let input = document.getElementsByClassName('form-control').value;
+            if (undefined !== input && input.length) {
+                // $("#contactForm").removeClass("active");
+                alert("Name must be filled out");
+                return false
+            }
+            // if ($(e.target).is(".form-group") === true) {
+            //     $("#contactForm").removeClass("active");
+            //     document.getElementById("overlay").style.display = "none";
+            // }
         });
     });
 </script>

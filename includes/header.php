@@ -50,12 +50,6 @@
       <div class="row">
          <div class="col-md-12">
             <div class="slider-text">
-               <!-- <ul class="header-items">
-                  <li class="item"><a href="#">item 1</a></li>
-                  <li class="item"><a href="#">item 2</a></li>
-                  <li class="item"><a href="#">item 3</a></li>
-                  <li class="item"><a href="#">item 4</a></li>
-               </ul> -->
                <h1>New Age Agency</h1>
                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit aspernatur, ut odit tempora officiis enim neque, maxime, architecto nulla ducimus obcaecati!</p>
                <div class="slider-btns">
@@ -67,14 +61,3 @@
       </div>
    </div>
 </header>
-<!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-<script>
-   $(document).ready(function() {
-      $('.services-link').hover(function() {
-            $('.header-items').addClass('show');
-         },
-         function() {
-            $('.header-items').removeClass('show');
-         });
-   });
-</script> -->

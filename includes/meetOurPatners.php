@@ -1,4 +1,4 @@
-<section id="meetOurPatners">
+<section id="meetOurPatners" class="Features">
     <div class="about-heading">
         <div class="container">
             <div class="row">

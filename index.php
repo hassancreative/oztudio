@@ -55,13 +55,13 @@
    <?php include './includes/ourHeros.php'; ?>
    <!-- end meet our heros -->
 
-   <!-- meet our patners -->
-   <?php include './includes/meetOurPatners.php' ?>
-   <!-- end meet our patners -->
-
    <!-- statistics -->
    <?php include './includes/statistics.php'; ?>
    <!-- end statistics -->
+
+   <!-- meet our patners -->
+   <?php include './includes/meetOurPatners.php' ?>
+   <!-- end meet our patners -->
 
    <!-- get in touch -->
    <?php include './includes/getInTouch.php'; ?>
@@ -70,7 +70,6 @@
    <!-- Footer -->
    <?php include './includes/footer.php'; ?>
    <!-- End Footer -->
-
 
    <!-- Jquery Slim 3.3.1 -->
    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
@@ -85,7 +84,6 @@
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
-   <script src="js/form-validation.js"></script>
 </body>
 
 </html>
